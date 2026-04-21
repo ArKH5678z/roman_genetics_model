@@ -1,0 +1,113 @@
+{
+  "antonine": {
+    "n_runs": 50,
+    "pid_final": {
+      "Italian_Central_Med": 0.048526097063281225,
+      "Eastern_Med": 0.03312453449542164,
+      "Western_European": 0.07559398249182273
+    },
+    "pid_final_std": {
+      "Italian_Central_Med": 0.008585323723137162,
+      "Eastern_Med": 0.007254956494005897,
+      "Western_European": 0.011982435915173839
+    },
+    "nopid_final": {
+      "Italian_Central_Med": 0.058370017162592956,
+      "Eastern_Med": 0.058336884682537525,
+      "Western_European": 0.06256760155206852
+    },
+    "nopid_final_std": {
+      "Italian_Central_Med": 0.01267279327983555,
+      "Eastern_Med": 0.014272560309284638,
+      "Western_European": 0.01366143212065821
+    },
+    "frequency_change": {
+      "Italian_Central_Med": {
+        "no_control": 0.008370017162592953,
+        "with_control": -0.001473902936718778
+      },
+      "Eastern_Med": {
+        "no_control": 0.028336884682537526,
+        "with_control": 0.0031245344954216395
+      },
+      "Western_European": {
+        "no_control": -0.017432398447931485,
+        "with_control": -0.004406017508177276
+      }
+    }
+  },
+  "cyprian": {
+    "n_runs": 50,
+    "pid_final": {
+      "Italian_Central_Med": 0.04865489156783623,
+      "Eastern_Med": 0.032938409162161196,
+      "Western_European": 0.07441850651796385
+    },
+    "pid_final_std": {
+      "Italian_Central_Med": 0.008401530240856802,
+      "Eastern_Med": 0.007061805984455716,
+      "Western_European": 0.010899867462175996
+    },
+    "nopid_final": {
+      "Italian_Central_Med": 0.06062883310540703,
+      "Eastern_Med": 0.05906310484161038,
+      "Western_European": 0.0637538766390311
+    },
+    "nopid_final_std": {
+      "Italian_Central_Med": 0.013661483885893685,
+      "Eastern_Med": 0.014511251066233915,
+      "Western_European": 0.016570407811639574
+    },
+    "frequency_change": {
+      "Italian_Central_Med": {
+        "no_control": 0.010628833105407028,
+        "with_control": -0.0013451084321637746
+      },
+      "Eastern_Med": {
+        "no_control": 0.029063104841610378,
+        "with_control": 0.002938409162161197
+      },
+      "Western_European": {
+        "no_control": -0.016246123360968895,
+        "with_control": -0.005581493482036154
+      }
+    }
+  },
+  "justinianic": {
+    "n_runs": 50,
+    "pid_final": {
+      "Italian_Central_Med": 0.04509941354683869,
+      "Eastern_Med": 0.031574843280727925,
+      "Western_European": 0.06831459218636335
+    },
+    "pid_final_std": {
+      "Italian_Central_Med": 0.008554620125558594,
+      "Eastern_Med": 0.006237042479288904,
+      "Western_European": 0.00988347674086495
+    },
+    "nopid_final": {
+      "Italian_Central_Med": 0.06858308872690311,
+      "Eastern_Med": 0.06604786722278402,
+      "Western_European": 0.06906828938415309
+    },
+    "nopid_final_std": {
+      "Italian_Central_Med": 0.01404406712020093,
+      "Eastern_Med": 0.014823472589695076,
+      "Western_European": 0.01580232925031804
+    },
+    "frequency_change": {
+      "Italian_Central_Med": {
+        "no_control": 0.018583088726903105,
+        "with_control": -0.0049005864531613125
+      },
+      "Eastern_Med": {
+        "no_control": 0.036047867222784025,
+        "with_control": 0.0015748432807279264
+      },
+      "Western_European": {
+        "no_control": -0.010931710615846912,
+        "with_control": -0.011685407813636653
+      }
+    }
+  }
+}
