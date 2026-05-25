@@ -36,11 +36,9 @@ def plot_network_frequencies(subpop_freqs, title='',
     """
     G, sites, pos = load_orbis_network()
     subpop_map = assign_nodes_to_subpopulations(sites)
-
     standalone = ax is None
     if standalone:
-        fig, ax = plt.subplots(figsize=(14, 8))
-
+        fig, ax = plt.subplots(figsize=(14, 6), facecolor='#1a1a2e')
     ax.set_facecolor('#1a1a2e')
 
     # Draw edges

@@ -231,6 +231,10 @@ if run_button:
         traj_no, final_no = run_simulation(
             False, plague_events, init_freqs, controllers, migration_rate
         )
+    st.session_state['traj_pid'] = traj_pid
+    st.session_state['traj_no'] = traj_no
+    st.session_state['final_pid'] = final_pid
+    st.session_state['final_no'] = final_no
 
     # Metrics
     col1, col2, col3 = st.columns(3)
@@ -278,35 +282,6 @@ if run_button:
     st.pyplot(fig)
 
     st.markdown("---")
-
-    # Heatmap — final frequency by subpopulation
-    st.subheader("Final Frequency Comparison")
-    fig2, ax = plt.subplots(figsize=(8, 3))
-    heatmap_data = np.array([
-        [final_no[sp] for sp in subpops],
-        [final_pid[sp] for sp in subpops]
-    ])
-    im = ax.imshow(heatmap_data, cmap='YlOrRd', aspect='auto',
-                   vmin=0, vmax=0.2)
-    ax.set_xticks(range(3))
-    ax.set_xticklabels(labels)
-    ax.set_yticks([0, 1])
-    ax.set_yticklabels(['No Control', 'With Control'])
-    plt.colorbar(im, ax=ax, label='Allele Frequency')
-    for i in range(2):
-        for j in range(3):
-            ax.text(j, i, f'{heatmap_data[i, j]:.4f}',
-                    ha='center', va='center', fontsize=10)
-    plt.tight_layout()
-    st.pyplot(fig2)
-
-    st.markdown("---")
-    st.subheader("Parameters Used")
-    st.write(f"Migration rate: {migration_rate} | Generations: {GENERATIONS}")
-    st.write(f"Italian Kp={Kp_i} Ki={Ki_i} Kd={Kd_i} | "
-             f"Eastern Kp={Kp_e} Ki={Ki_e} Kd={Kd_e} | "
-             f"Western Kp={Kp_w} Ki={Ki_w} Kd={Kd_w}")
-
 else:
     st.info("Adjust parameters in the sidebar and click **Run Simulation** to begin.")
     st.markdown("""
@@ -323,5 +298,24 @@ else:
     3. Adjust starting allele frequencies and migration rate
     4. Click Run Simulation
     5. Compare controlled vs uncontrolled trajectories
-    6. Use the heatmap to compare final frequencies across subpopulations
+    6. Use the live map slider to watch resistance alleles shift across the Roman world
     """)
+
+if 'traj_pid' in st.session_state:
+    st.markdown("---")
+    st.subheader("Live Geographic Map")
+
+    traj_pid = st.session_state['traj_pid']
+
+    generation_slider = st.slider(
+        "Generation (drag to animate)",
+        0, GENERATIONS, 0, 1
+    )
+    year_ce = -500 + (generation_slider * 25)
+    st.caption(f"Generation {generation_slider} — approximately {year_ce} CE")
+
+    freqs_at_gen = {sp: traj_pid[sp][generation_slider] for sp in traj_pid}
+    from map_visual import plot_network_frequencies
+    fig_map = plot_network_frequencies(freqs_at_gen, title=f'~{year_ce} CE')
+    st.pyplot(fig_map)
+    plt.close('all')
