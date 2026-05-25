@@ -315,7 +315,7 @@ if 'traj_pid' in st.session_state:
     st.caption(f"Generation {generation_slider} — approximately {year_ce} CE")
 
     freqs_at_gen = {sp: traj_pid[sp][generation_slider] for sp in traj_pid}
-    from map_visual import plot_network_frequencies
-    fig_map = plot_network_frequencies(freqs_at_gen, title=f'~{year_ce} CE')
+    import map_visual
+    fig_map = map_visual.plot_network_frequencies(freqs_at_gen, title=f'~{year_ce} CE')
     st.pyplot(fig_map)
     plt.close('all')
