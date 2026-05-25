@@ -26,6 +26,7 @@ pressure required to restore population genetic stability?*
 
 ## Project Structure
 
+```
 roman_genetics_model/
 ├── data/
 │   ├── gorbit-sites.csv          # ORBIS settlement nodes
@@ -53,6 +54,7 @@ roman_genetics_model/
 ├── prepare_data.py               # AADR data pipeline and subpopulation assignment
 ├── requirements.txt              # Python dependencies
 └── README.md
+```
 ---
 
 ## Data Sources
