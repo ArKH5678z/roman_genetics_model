@@ -185,4 +185,10 @@ If using this project please cite the PAGES2k dataset:
   **ORBIS Roman Network (gorbit)**: Heath, S. (2016). gorbit: ORBIS data as a graph. 
   GitHub repository. https://github.com/sfsheath/gorbit
 
-Khider, Deborah & Emile‐Geay, Julien & Zhu, Feng & James, Alexander & Landers, Jordan & Ratnakar, Varun & Gil, Yolanda. (2022). Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python. Paleoceanography and Paleoclimatology. 37. 10.1029/2022PA004509. 
+- Khider, Deborah & Emile‐Geay, Julien & Zhu, Feng & James, Alexander & Landers, Jordan & Ratnakar, Varun & Gil, Yolanda. (2022). Pyleoclim: Paleoclimate Timeseries Analysis and Visualization With Python. Paleoceanography and Paleoclimatology. 37. 10.1029/2022PA004509. 
+- Antonio, M.L. et al. (2019). Ancient Rome: A genetic crossroads of Europe 
+  and the Mediterranean. Science, 366(6466), 708-714.  
+  DOI: 10.1126/science.aay6826
+
+- Reich, D. et al. Allen Ancient DNA Resource (AADR) v66. Harvard Medical 
+  School. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FFIDCW
