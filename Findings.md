@@ -51,9 +51,9 @@ Resistance allele frequency evolution was modelled using a Wright-Fisher simulat
 
 Paleoclimate data from the PAGES2k Common Era Surface Temperature Reconstructions (Neukom et al., 2019) modifies selection pressure annually, reflecting the biological reality that harsher climate conditions amplify selective pressure on resistance variants — particularly relevant to the Justinianic scenario where the Late Antique Little Ice Age created severe environmental stress across all three subpopulations simultaneously.
 ### 2.5 Monte Carlo Approach
-```
+
 Time units shift from days in Project 1 to generations in Project 2, with each generation representing approximately 25 years. The simulation runs for 200 generations, spanning roughly 500 BCE to 4500 CE, with plague selective pressure events applied at generation 26 (Antonine, 165 CE), generation 30 (Cyprian, 249 CE), and generation 42 (Justinianic, 541 CE). All results are averaged across 50 parallelised Monte Carlo simulation runs across 16 threads, compared to 20 sequential runs in Project 1, reflecting the upgraded hardware available for this project.
-```
+
 ---
 
 ## 3. Results
