@@ -1,7 +1,7 @@
 import numpy as np
 
 # Wright-Fisher parameters
-GENERATIONS = 200       # ~5000 years at 25 years per generation
+GENERATIONS = 45       # ~5000 years at 25 years per generation
 POP_SIZE = 10000        # effective population size per subpopulation
 MUTATION_RATE = 1e-5    # background mutation rate
 

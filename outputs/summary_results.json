@@ -2,111 +2,111 @@
   "antonine": {
     "n_runs": 50,
     "pid_final": {
-      "Italian_Central_Med": 0.048526097063281225,
-      "Eastern_Med": 0.03312453449542164,
-      "Western_European": 0.07559398249182273
+      "Italian_Central_Med": 0.05540239101720323,
+      "Eastern_Med": 0.04170533413791764,
+      "Western_European": 0.07484759405950439
     },
     "pid_final_std": {
-      "Italian_Central_Med": 0.008585323723137162,
-      "Eastern_Med": 0.007254956494005897,
-      "Western_European": 0.011982435915173839
+      "Italian_Central_Med": 0.007038129787494577,
+      "Eastern_Med": 0.0073120683009855825,
+      "Western_European": 0.007725892016469006
     },
     "nopid_final": {
-      "Italian_Central_Med": 0.058370017162592956,
-      "Eastern_Med": 0.058336884682537525,
-      "Western_European": 0.06256760155206852
+      "Italian_Central_Med": 0.05711536958231027,
+      "Eastern_Med": 0.04321114788400231,
+      "Western_European": 0.07350719064192696
     },
     "nopid_final_std": {
-      "Italian_Central_Med": 0.01267279327983555,
-      "Eastern_Med": 0.014272560309284638,
-      "Western_European": 0.01366143212065821
+      "Italian_Central_Med": 0.008514175507091855,
+      "Eastern_Med": 0.008770423800753454,
+      "Western_European": 0.009852086734793061
     },
     "frequency_change": {
       "Italian_Central_Med": {
-        "no_control": 0.008370017162592953,
-        "with_control": -0.001473902936718778
+        "no_control": 0.007115369582310266,
+        "with_control": 0.005402391017203224
       },
       "Eastern_Med": {
-        "no_control": 0.028336884682537526,
-        "with_control": 0.0031245344954216395
+        "no_control": 0.013211147884002308,
+        "with_control": 0.01170533413791764
       },
       "Western_European": {
-        "no_control": -0.017432398447931485,
-        "with_control": -0.004406017508177276
+        "no_control": -0.006492809358073046,
+        "with_control": -0.005152405940495611
       }
     }
   },
   "cyprian": {
     "n_runs": 50,
     "pid_final": {
-      "Italian_Central_Med": 0.04865489156783623,
-      "Eastern_Med": 0.032938409162161196,
-      "Western_European": 0.07441850651796385
+      "Italian_Central_Med": 0.055775724903017215,
+      "Eastern_Med": 0.04342447798682574,
+      "Western_European": 0.07497398482367615
     },
     "pid_final_std": {
-      "Italian_Central_Med": 0.008401530240856802,
-      "Eastern_Med": 0.007061805984455716,
-      "Western_European": 0.010899867462175996
+      "Italian_Central_Med": 0.006317027462020028,
+      "Eastern_Med": 0.007685630084259082,
+      "Western_European": 0.008821513072906422
     },
     "nopid_final": {
-      "Italian_Central_Med": 0.06062883310540703,
-      "Eastern_Med": 0.05906310484161038,
-      "Western_European": 0.0637538766390311
+      "Italian_Central_Med": 0.05873436347110623,
+      "Eastern_Med": 0.043966318884193625,
+      "Western_European": 0.075338103788455
     },
     "nopid_final_std": {
-      "Italian_Central_Med": 0.013661483885893685,
-      "Eastern_Med": 0.014511251066233915,
-      "Western_European": 0.016570407811639574
+      "Italian_Central_Med": 0.0083215994820824,
+      "Eastern_Med": 0.008770147646911128,
+      "Western_European": 0.010365741047936883
     },
     "frequency_change": {
       "Italian_Central_Med": {
-        "no_control": 0.010628833105407028,
-        "with_control": -0.0013451084321637746
+        "no_control": 0.008734363471106225,
+        "with_control": 0.0057757249030172125
       },
       "Eastern_Med": {
-        "no_control": 0.029063104841610378,
-        "with_control": 0.002938409162161197
+        "no_control": 0.013966318884193626,
+        "with_control": 0.013424477986825743
       },
       "Western_European": {
-        "no_control": -0.016246123360968895,
-        "with_control": -0.005581493482036154
+        "no_control": -0.0046618962115450024,
+        "with_control": -0.005026015176323853
       }
     }
   },
   "justinianic": {
     "n_runs": 50,
     "pid_final": {
-      "Italian_Central_Med": 0.04509941354683869,
-      "Eastern_Med": 0.031574843280727925,
-      "Western_European": 0.06831459218636335
+      "Italian_Central_Med": 0.064664765067734,
+      "Eastern_Med": 0.04812367241632248,
+      "Western_European": 0.08603899181936725
     },
     "pid_final_std": {
-      "Italian_Central_Med": 0.008554620125558594,
-      "Eastern_Med": 0.006237042479288904,
-      "Western_European": 0.00988347674086495
+      "Italian_Central_Med": 0.00818685682941905,
+      "Eastern_Med": 0.008516690166527507,
+      "Western_European": 0.009453927502295494
     },
     "nopid_final": {
-      "Italian_Central_Med": 0.06858308872690311,
-      "Eastern_Med": 0.06604786722278402,
-      "Western_European": 0.06906828938415309
+      "Italian_Central_Med": 0.06536642199675055,
+      "Eastern_Med": 0.04969247835263868,
+      "Western_European": 0.08639446653170166
     },
     "nopid_final_std": {
-      "Italian_Central_Med": 0.01404406712020093,
-      "Eastern_Med": 0.014823472589695076,
-      "Western_European": 0.01580232925031804
+      "Italian_Central_Med": 0.00886296842571134,
+      "Eastern_Med": 0.010075238459279413,
+      "Western_European": 0.01245568788090604
     },
     "frequency_change": {
       "Italian_Central_Med": {
-        "no_control": 0.018583088726903105,
-        "with_control": -0.0049005864531613125
+        "no_control": 0.015366421996750548,
+        "with_control": 0.014664765067733995
       },
       "Eastern_Med": {
-        "no_control": 0.036047867222784025,
-        "with_control": 0.0015748432807279264
+        "no_control": 0.01969247835263868,
+        "with_control": 0.018123672416322484
       },
       "Western_European": {
-        "no_control": -0.010931710615846912,
-        "with_control": -0.011685407813636653
+        "no_control": 0.006394466531701656,
+        "with_control": 0.006038991819367248
       }
     }
   }
