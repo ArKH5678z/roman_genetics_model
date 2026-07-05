@@ -3,7 +3,7 @@ import pandas as pd
 import networkx as nx
 import os
 
-DATA_DIR = "/home/grace-matiba/projects/roman_genetics_model/data"
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 
 def load_orbis_network():
