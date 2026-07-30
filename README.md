@@ -6,7 +6,9 @@ Antonine (165 CE), Cyprian (249 CE), and Justinianic (541 CE) plagues —
 differentially shaped disease resistance allele frequencies across genetically 
 distinct Roman subpopulations, using real ancient DNA data and control theory.
 
-This project directly extends the epidemiological framework established in 
+This project directly extends the epidemiological framework established in ## Acknowledgements
+Developed with assistance from Claude (Anthropic) for code scaffolding,
+debugging, and technical guidance.
 [Roman Plague Model](https://github.com/ArKH5678z/roman_plague_model), which 
 modelled institutional epidemic response across the ORBIS Roman road network. 
 Where Project 1 identified the threshold at which intervention becomes 
@@ -192,3 +194,6 @@ If using this project please cite the PAGES2k dataset:
 
 - Reich, D. et al. Allen Ancient DNA Resource (AADR) v66. Harvard Medical 
   School. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FFIDCW
+  ## Acknowledgements
+Developed with assistance from Claude (Anthropic) for code scaffolding,
+debugging, and technical guidance.
